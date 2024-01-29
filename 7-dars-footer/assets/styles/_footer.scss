@@ -1,0 +1,308 @@
+.footer {
+  background-image: url(../images/background.jpg);
+  width: 1440px;
+  height: 960px;
+  display: flex;
+  align-items: center;
+  padding: 0 121px;
+  &__text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__text-top {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Open sans";
+    margin-bottom: 37px;
+  }
+  &__btn {
+    border-radius: 4px;
+    background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
+    border: none;
+  }
+  &__btn-text {
+    color: #1a1917;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 18px 31px;
+  }
+}
+
+.card1 {
+  &__title {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    width: 452px;
+    height: 182px;
+    margin-bottom: 30px;
+  }
+  &__title-top{
+    display: flex;
+    gap: 190px;
+  }
+  &__img{
+    margin: 10px 0;
+  }
+  &__text {
+    color: #ffb548;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding: 3px 60px;
+  }
+  &__subtitle {
+    color: #fff;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.5;
+    padding: 2px 60px;
+    margin-bottom: 20px;
+  }
+  &__text-top {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+  &__subtitle-top {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding: 0 23px;
+  }
+}
+.card2 {
+  &__title {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    width: 452px;
+    height: 182px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 4rem;
+  }
+  &__title-top{
+    display: flex;
+    gap: 190px;
+  }
+  &__img{
+    margin: 10px 0;
+  }
+  &__text {
+    color: #ffb548;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding: 3px 60px;
+  }
+  &__subtitle {
+    color: #fff;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.5;
+    padding: 2px 60px;
+    margin-bottom: 20px;
+  }
+  &__text-top {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+  &__subtitle-top {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    padding: 0 23px;
+  }
+}
+
+.footer2 {
+  background: #080a0b;
+  width: 1440px;
+  height: 960px;
+  &__img {
+    padding: 49px 130px;
+  }
+  &__bottom {
+    display: flex;
+    gap: 20px;
+  }
+  &__bottom-right {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-block: 220px 0;
+  }
+  &__bottom-title {
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 40px;
+    width: 644px;
+    height: 136px;
+  }
+
+  .title-top {
+    display: flex;
+    gap: 30px;
+    .card {
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.08);
+      width: 367px;
+      height: 60px;
+      &__title {
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+        padding: 5px 22px;
+      }
+      &__text {
+        color: #ffb548;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 21px;
+      }
+      &__btn {
+        border-radius: 5px;
+        background: linear-gradient(195deg, #ffb548 11.27%, #f3af34 90.4%);
+        border: none;
+        padding: 17px 70px;
+      }
+      &__btn-text {
+        color: #1a1917;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: lowercase;
+      }
+    }
+    &__text {
+      color: #1a1917;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: lowercase;
+    }
+  }
+  .footer_center {
+    display: flex;
+    align-items: center;
+    padding: 0 121px;
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 90px;
+
+      &__title {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 30px;
+      }
+      &__top {
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+      &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__text-mail {
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+        padding: 22px 190px;
+      }
+      &__title-top {
+        color: #fff;
+        text-align: right;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
